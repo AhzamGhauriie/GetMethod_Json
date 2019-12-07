@@ -61,7 +61,7 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
         cell.lblname.text = "Name :\(arrData[indexPath.row].name)"
         
         cell.lblcapital.text = "Capital :\(arrData[indexPath.row].capital)"
-        
+        print("jnasjln")
         return cell
     }
     
